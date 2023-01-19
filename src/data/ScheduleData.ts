@@ -1,4 +1,4 @@
-import type { Schedule } from 'src';
+import type { Schedule } from '../index';
 
 export const allData: Schedule = [
   {
@@ -37,7 +37,7 @@ export const allData: Schedule = [
           },
         ],
       },
-      { name: 'LUNCH', time: '11:15AM - 11:30AM', duration: '15', actType: 'misc', links: [] },
+      { name: 'BREAK', time: '11:15AM - 11:30AM', duration: '15', actType: 'misc', links: [] },
       {
         name: 'p5.js',
         time: '11:30AM - 12:00PM',
@@ -66,19 +66,6 @@ export const allData: Schedule = [
             displayText: 'Code Along',
             linkURL:
               'https://docs.google.com/document/d/1uZWuTYQnJBXUhqxb55HAjQg32BkCEGSF3VvAOLuNcNM/edit?usp=sharing',
-          },
-        ],
-      },
-      {
-        name: 'LUNCH',
-        time: '01:00PM - 02:00PM',
-        duration: '60',
-        actType: 'misc',
-        links: [
-          {
-            displayText: 'Project',
-            linkURL:
-              'https://docs.google.com/document/d/1Xd5wV_2JIfFh3JeCFmlWJzMIKFuiT0DXCGaDGtezSSw/edit?usp=sharing',
           },
         ],
       },
@@ -121,7 +108,7 @@ export const allData: Schedule = [
           },
         ],
       },
-      { name: 'LUNCH', time: '11:15AM - 11:30AM', duration: '15', actType: 'misc', links: [] },
+      { name: 'BREAK', time: '11:15AM - 11:30AM', duration: '15', actType: 'misc', links: [] },
       {
         name: 'Bouncing Ball',
         time: '11:30AM - 12:15PM',
@@ -150,8 +137,7 @@ export const allData: Schedule = [
         links: [
           { displayText: 'Survey Link', linkURL: 'https://allstarcode.typeform.com/to/ogLI9wrD' },
         ],
-      },
-      { name: 'LUNCH', time: '01:00PM - 02:00PM', duration: '60', actType: 'misc', links: [] },
+      }
     ],
   },
 ];
