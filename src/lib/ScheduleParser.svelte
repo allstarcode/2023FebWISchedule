@@ -16,18 +16,12 @@
         data-state="closed"
       >
         <span>Day {day.daynum} -</span>
-        <span class="dayofWeek"
-          >&nbsp;
+        <span class="dayofWeek">
+          &nbsp;
           {#if day.daynum === '1'}
-            Mon,
+            Sat,
           {:else if day.daynum === '2'}
-            Tues,
-          {:else if day.daynum === '3'}
-            Weds,
-          {:else if day.daynum === '4'}
-            Thurs,
-          {:else if day.daynum === '5'}
-            Fri,
+            Sun,
           {/if}
         </span>
         <span class="titleFix">&nbsp;{day.title}</span>
