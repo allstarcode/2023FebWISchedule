@@ -71,7 +71,7 @@ export const allData: Schedule = [
       },
       {
         name: 'Draw Loop + Mouse Events',
-        time: '12:45PM - 01:45PM',
+        time: '12:45PM - 01:00PM',
         duration: '15',
         actType: 'codealong',
         links: [
