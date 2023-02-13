@@ -39,7 +39,7 @@ export const allData: Schedule = [
       },
       { name: 'LUNCH', time: '11:15AM - 11:30AM', duration: '15', actType: 'misc', links: [] },
       {
-        name: 'p5.js',
+        name: 'Intro to p5',
         time: '11:30AM - 12:00PM',
         duration: '30',
         actType: 'codealong',
