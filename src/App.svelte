@@ -12,9 +12,7 @@
     !ele.classList.contains(className) ? ele.classList.toggle(className) : null;
 
   const animateSchedule = () => {
-    const allListItems = document.querySelectorAll(
-      '#schedulecont > ul.collapsible > li'
-    );
+    const allListItems = document.querySelectorAll('#schedulecont > ul.collapsible > li');
     anime({
       targets: allListItems,
       translateY: [250, 0],
@@ -26,8 +24,8 @@
   };
 
   onMount(() => {
-    animateSchedule()
-  })
+    animateSchedule();
+  });
 </script>
 
 <main class="container">
@@ -36,7 +34,8 @@
     <div class="col s12 center">
       <div class="title mainheader">
         <img id="titleAsterik" src={asterik} alt="ASC Asterik" />
-        All Star Code 2023 WI Schedule
+        All Star Code Weekend Intensive Schedule
+        <img id="titleAsterik" src={asterik} alt="ASC Asterik" />
       </div>
     </div>
   </div>
@@ -48,9 +47,13 @@
   <button
     id="scrollToTop"
     class="waves-effect waves-light btn btn-medium"
-    on:click={() =>
-      document.getElementById('anchor').scrollIntoView({ behavior: 'smooth' })}
+    on:click={() => document.getElementById('anchor').scrollIntoView({ behavior: 'smooth' })}
   >
     back to top
   </button>
+  <div id="footerLogo">
+    <a href="https://allstarcode.org" rel="noreferrer noopener" target="_blank">
+      <img src="https://i.imgur.com/w1tzpDH.png" alt="All Star Code Official Logo" />
+    </a>
+  </div>
 </main>

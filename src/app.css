@@ -293,3 +293,13 @@ ul.collection > li.collection-item > a {
 .schedule-btn {
   animation: pulse 1s ease-out 3;
 }
+
+#footerLogo {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+#footerLogo > a > img {
+  height: 1.75rem;
+}
