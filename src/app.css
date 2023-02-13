@@ -282,7 +282,6 @@ ul.collection > li.collection-item > a {
   margin-left: 10px;
   font-weight: bold;
   background-color: #147da3;
-  font-weight: bold;
   font-size: 18px;
 }
 
@@ -294,12 +293,14 @@ ul.collection > li.collection-item > a {
   animation: pulse 1s ease-out 3;
 }
 
-#footerLogo {
-  position: absolute;
-  bottom: 0.5rem;
-  right: 0.5rem;
-}
-
 #footerLogo > a > img {
   height: 1.75rem;
+}
+
+#footerLogo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
