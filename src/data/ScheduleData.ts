@@ -154,12 +154,17 @@ export const allData: Schedule = [
         links: [{ displayText: 'Join Here', linkURL: 'https://kahoot.it' }],
       },
       {
-        name: 'Student Survey',
+        name: 'Wrap Up',
         time: '12:45PM - 01:00PM',
         duration: '15',
-        actType: 'survey',
+        actType: 'coreskill',
         links: [
-          { displayText: 'Survey Link', linkURL: 'https://allstarcode.typeform.com/to/ogLI9wrD' },
+          {
+            displayText: 'Student Survey',
+            linkURL: 'https://allstarcode.typeform.com/to/ogLI9wrD',
+          },
+          { displayText: "What's the SI?", linkURL: 'https://i.imgur.com/NEEEpos.gif' },
+          { displayText: 'Apply to the SI!', linkURL: 'https://allstarcodeapply.smapply.io/' },
         ],
       },
     ],
