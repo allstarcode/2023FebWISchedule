@@ -3,7 +3,7 @@ import type { Schedule } from '../index';
 export const allData: Schedule = [
   {
     daynum: '1',
-    title: 'February 4th',
+    title: 'February 25th',
     activities: [
       {
         name: 'Welcome',
@@ -86,7 +86,7 @@ export const allData: Schedule = [
   },
   {
     daynum: '2',
-    title: 'February 5th',
+    title: 'February 26th',
     activities: [
       {
         name: 'Team Building',
