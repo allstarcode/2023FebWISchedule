@@ -3,7 +3,7 @@ import type { Schedule } from '../index';
 export const allData: Schedule = [
   {
     daynum: '1',
-    title: 'February 25th',
+    title: 'February 4th',
     activities: [
       {
         name: 'Welcome',
@@ -37,7 +37,7 @@ export const allData: Schedule = [
           },
         ],
       },
-      { name: 'BREAK', time: '11:15AM - 11:30AM', duration: '15', actType: 'misc', links: [] },
+      { name: 'LUNCH', time: '11:15AM - 11:30AM', duration: '15', actType: 'misc', links: [] },
       {
         name: 'p5.js',
         time: '11:30AM - 12:00PM',
@@ -53,8 +53,8 @@ export const allData: Schedule = [
       },
       {
         name: 'Draw Loop + Mouse Events',
-        time: '12:00PM - 01:00PM',
-        duration: '60',
+        time: '12:00PM - 12:45PM',
+        duration: '45',
         actType: 'lecture',
         links: [
           {
@@ -69,21 +69,34 @@ export const allData: Schedule = [
           },
         ],
       },
+      {
+        name: 'Draw Loop + Mouse Events',
+        time: '12:45PM - 01:45PM',
+        duration: '15',
+        actType: 'codealong',
+        links: [
+          {
+            displayText: 'Project',
+            linkURL:
+              'https://docs.google.com/document/d/1Xd5wV_2JIfFh3JeCFmlWJzMIKFuiT0DXCGaDGtezSSw/edit?usp=sharing',
+          },
+        ],
+      },
     ],
   },
   {
     daynum: '2',
-    title: 'February 26th',
+    title: 'February 5th',
     activities: [
       {
         name: 'Team Building',
         time: '10:00AM - 10:30AM',
         duration: '30',
-        actType: 'teambuilding',
+        actType: 'coreskill',
         links: [],
       },
       {
-        name: 'Intro to p5',
+        name: 'Animation',
         time: '10:30AM - 11:00AM',
         duration: '30',
         actType: 'lecture',
@@ -96,7 +109,7 @@ export const allData: Schedule = [
         ],
       },
       {
-        name: 'p5.js',
+        name: 'Animation',
         time: '11:00AM - 11:15AM',
         duration: '15',
         actType: 'codealong',
@@ -108,7 +121,13 @@ export const allData: Schedule = [
           },
         ],
       },
-      { name: 'BREAK', time: '11:15AM - 11:30AM', duration: '15', actType: 'misc', links: [] },
+      {
+        name: 'LUNCH',
+        time: '11:15AM - 11:30AM',
+        duration: '15',
+        actType: 'misc',
+        links: [],
+      },
       {
         name: 'Bouncing Ball',
         time: '11:30AM - 12:15PM',
@@ -120,6 +139,11 @@ export const allData: Schedule = [
             linkURL:
               'https://docs.google.com/document/d/1xYx86DKP8LDIqJbgCtpEnQIw6otO57j7DJ4aX29cxus/edit?usp=sharing',
           },
+          {
+            displayText: 'Code Along II',
+            linkURL:
+              'https://docs.google.com/document/d/1QCAJVfQ2sEGSQadfgv-PfMPLxAv0eY9xiJxKVXXtZNo/edit?usp=sharing',
+          },
         ],
       },
       {
@@ -127,7 +151,7 @@ export const allData: Schedule = [
         time: '12:15PM - 12:45PM',
         duration: '30',
         actType: 'project',
-        links: [{ displayText: 'Join Here', linkURL: '' }],
+        links: [{ displayText: 'Join Here', linkURL: 'https://kahoot.it' }],
       },
       {
         name: 'Student Survey',
@@ -137,7 +161,7 @@ export const allData: Schedule = [
         links: [
           { displayText: 'Survey Link', linkURL: 'https://allstarcode.typeform.com/to/ogLI9wrD' },
         ],
-      }
+      },
     ],
   },
 ];

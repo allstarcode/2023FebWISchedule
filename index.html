@@ -24,39 +24,39 @@
         let elems = document.querySelectorAll('.collapsible');
         let instances = M.Collapsible.init(elems);
 
-        async function delNodes(nList) {
-          await nList.forEach((n) => n.remove());
-        }
+        // async function delNodes(nList) {
+        //   await nList.forEach((n) => n.remove());
+        // }
 
-        const day1Links = document.querySelectorAll('.day-1 > .card-action > a');
-        const day2Links = document.querySelectorAll('.day-2 > .card-action > a');
+        // const day1Links = document.querySelectorAll('.day-1 > .card-action > a');
+        // const day2Links = document.querySelectorAll('.day-2 > .card-action > a');
 
-        const allMatsDay1Links = document.querySelectorAll('.day1-all-links');
-        const allMatsDay2Links = document.querySelectorAll('.day2-all-links');
+        // const allMatsDay1Links = document.querySelectorAll('.day1-all-links');
+        // const allMatsDay2Links = document.querySelectorAll('.day2-all-links');
 
-        const allLinks = document.querySelectorAll('.all-links');
-        const now = new Date();
+        // const allLinks = document.querySelectorAll('.all-links');
+        // const now = new Date();
 
-        const day1Date = new Date(2023, 2, 25);
-        const day2Date = new Date(2023, 2, 26);
+        // const day1Date = new Date(2023, 2, 25);
+        // const day2Date = new Date(2023, 2, 26);
 
-        if (now < day1Date) {
-          // console.log("It's not day one, deleting all links...");
-          delNodes([
-            ...day1Links,
-            ...day2Links,
-            ...allMatsDay1Links,
-            ...allMatsDay2Links,
-          ]);
-        } else if (now < day2Date) {
-          // console.log("It's not day 2 deleting day 2+");
-          delNodes([
-            ...day2Links,
-            ...allMatsDay2Links,
-          ]);
-        } else {
-          console.log("It's day 2 not deleting anything");
-        }
+        // if (now < day1Date) {
+        //   // console.log("It's not day one, deleting all links...");
+        //   delNodes([
+        //     ...day1Links,
+        //     ...day2Links,
+        //     ...allMatsDay1Links,
+        //     ...allMatsDay2Links,
+        //   ]);
+        // } else if (now < day2Date) {
+        //   // console.log("It's not day 2 deleting day 2+");
+        //   delNodes([
+        //     ...day2Links,
+        //     ...allMatsDay2Links,
+        //   ]);
+        // } else {
+        //   console.log("It's day 2 not deleting anything");
+        // }
 
         const activities = document.querySelectorAll('.sched-item > .card-content');
         for (let act of activities) {
